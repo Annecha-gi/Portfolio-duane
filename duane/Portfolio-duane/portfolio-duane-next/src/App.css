@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'DsDigital-Italic';
+  src: url('./app/fonts/DS-DIGI.TTF') format('truetype'); /* Chemin corrigé */
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.header-container {
+  color: #fff;
+  font-family: "DsDigital-Italic", sans-serif;
+  position: relative;
+  overflow: hidden;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between; 
+  padding: 35px; 
+  align-items: center;
+  width: 100%; /* Ensure the container spans the full width */
+  font-size: x-large;
+}
+
+.header-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.header-link:hover {
+  text-shadow: 0 0 5px #ffb300;
+}
+
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content:end;
+  align-items: center;
+  padding: 25px;
+  width: 100%; /* Ensure the header content spans the full width */
+}
+
+h2 {
+  font-family: "DsDigital-Italic", sans-serif;
+  color: #00e92c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: xx-large;
+  text-shadow: 0 0 2px #00e92c, 0 0 30px #00e92c, 0px 0px 5px #00e92c, 0 0 150px #00e92c;
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  margin-right: 940px;
+}
+
+h1 {
+  font-family: "DsDigital-Italic", sans-serif;
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size:x-large ;
+}
+
+h1:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #ffb300;
+}
+
+
+.roulement {
+  font-family: "DsDigital-Italic", sans-serif;
+  flex-direction: row;
+  display: flex;
+  align-items: center; /* Align items to the top */
+  gap: 40px; /* Reduced the gap between images */
+  padding: 35px;
+  color: #fff;
+  margin-top: 0; /* Adjust margin to position closer to the top */
+  height: 100%; /* Ensure the container spans the full width */
+  font-size: xx-large;
+  justify-content: center; /* Align content to the right */
+}
+
+
+.roulement img {
+  width: 19%; /* Reduce the size of the images */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.roulement img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
+
+
+
+.packaging {
+  font-family: "DsDigital-Italic", sans-serif;
+  padding: 35px;
+  color: #fff;
+  margin-top: 25px; /* Adjust margin to position closer to the top */
+  margin-bottom: 25px;
+  padding: 35px;
+  margin-left: 15px;
+  height: 100%; /* Ensure the container spans the full width */
+  font-size: xx-large;
+
+}
+
+.footer {
+  color: #fff;
+  font-family: "DsDigital-Italic", sans-serif;
+  position: relative;
+  overflow: hidden;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between; 
+  padding: 35px; 
+  align-items: center;
+  width: 100%; /* Ensure the container spans the full width */
+  font-size:large;
+  margin-bottom: 25px;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  font-family: "DsDigital-Italic", sans-serif;
+  color: #ffffff;
+  margin: 0 5px; /* Reduced the horizontal margin to bring them closer */
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  text-shadow: 0 0 5px #ffb300;
+}
+
+.cursor {
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.landingpage,
+.landingpage * {
+  box-sizing: border-box;
+}
+
+.landingpage {
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+
+
